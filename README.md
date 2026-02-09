@@ -4,15 +4,16 @@
 **Telegram:** @C2_9H
 
 ## Features
-- **Account Analysis:** Fetches detailed information about any TikTok user.
-- **Statistics:** Displays Followers, Following, Likes, Videos, and Friends count.
-- **Privacy Check:** Detects if the account is Private, Verified, or has Open Favorites.
-- **History Tracking:** Shows Account Creation Date and last changes to Nickname/Username.
-- **Avatar Retrieval:** Provides the link to the user's high-resolution profile picture.
-- **Database Integration:** Automatically saves bot users to an SQLite database.
-- **Smart Input:** Accepts both direct usernames (e.g., `@user`) and profile links.
+- **Deep Account Analysis:** Extracts detailed public information about Instagram users.
+- **Advanced Statistics:** Displays Followers, Following, and Post counts.
+- **Business Intelligence:** Detects Business Category, Professional Status, and External URLs.
+- **Security & Privacy:** Checks if the account is Private, Verified, or a Business account.
+- **ID Extraction:** Retrieves the permanent numeric User ID.
+- **HD Profile Picture:** Fetches the highest quality profile picture available.
+- **Smart Username Detection:** cleans URLs and extracts usernames automatically.
+- **Database Logging:** Saves bot users to SQLite for future reference.
 
 ## Requirements
-To run this bot, install the required libraries:
+To run this bot, you need the `instaloader` library which is powerful for scraping Instagram data:
 ```bash
-pip install pyTelegramBotAPI requests
+pip install -r requirements.txt
